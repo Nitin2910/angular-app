@@ -1,5 +1,10 @@
+properties([pipelineTriggers([githubPush()])])
+ 
 pipeline {
-   agent any 
+    /* specify nodes for executing */
+    agent {
+        label 'github-ci'
+    }
 
   
    stages {
