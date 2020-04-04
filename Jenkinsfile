@@ -1,6 +1,3 @@
 pipeline {
-  stages{
-    stage{
-    }
-  }
+  
 }
